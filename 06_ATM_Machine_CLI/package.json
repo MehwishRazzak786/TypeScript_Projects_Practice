@@ -1,0 +1,21 @@
+{
+  "name": "@mehwish_razzak/atm_machine_cli",
+  "version": "1.0.0",
+  "description": "This project is based on ATM Machine transactions.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {"access": "public"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mehwish Abdul Razzak",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@mehwish_razzak/table_generator_cli",
+  "version": "1.0.2",
+  "description": "This is Table Printing CLI project, user can enter any number table will be printed to that number.",
+  "main": "table.js",
+  "type": "module",
+  "bin": "table.js",
+  "publishConfig": {"access": "public"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehwish Abdul Razzak",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.22"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
